@@ -7,12 +7,19 @@ public class Ruang extends Aset {
 
     public Ruang(String kode, String nama, int kapasitas) {
         super(kode, nama);
-        throw new UnsupportedOperationException("TODO minggu 3: konstruktor Ruang");
+        if (kapasitas <=0){
+            throw new IllegalArgumentException("Kapasitas ruang harus lebih dari 0");
+        }
+        this.kapasitas = kapasitas;
     }
 
     public int getKapasitas() {
-        throw new UnsupportedOperationException("TODO minggu 3");
+        return kapasitas;
     }
 
+    @Override 
+    public JenisAset getJenis(){
+        return JenisAset.RUANG
+    }
     // TODO minggu 3: override getJenis(). Minggu 4: override hitungDenda(int).
 }
