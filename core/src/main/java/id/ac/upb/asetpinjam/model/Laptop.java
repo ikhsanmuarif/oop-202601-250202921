@@ -29,8 +29,12 @@ public class Laptop extends Aset {
 
     @Override
     public JenisAset getJenis(){
-        return JenisAset.LAPTOP
+        return JenisAset.LAPTOP;
     }
 
-    // TODO minggu 3: override getJenis(). Minggu 4: override hitungDenda(int).
+    /** Denda laptop 2x tarif dasar. Validasi hari negatif dan tarif dasar dihitung di Aset. */
+    @Override
+    public long hitungDenda(int hariTerlambat) {
+        return super.hitungDenda(hariTerlambat) * 2;
+    }
 }

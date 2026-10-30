@@ -28,7 +28,7 @@ Dengan hierarki  itu tidak bisa dimodelkan dengan baikkarena:
  
 Saya memakai Claude (Anthropic) untuk membantu mengisi kode `Ruang`, `Laptop`, dan `AlatLab` serta menyusun draf catatan ini. Saya memberikan file tugas, file `Aset`, dan file tes kepada AI, lalu AI menghasilkan implementasi yang dicocokkan dengan aturan di `minggu-03.md` dan tes.
  
-Yang saya lakukan sendiri: **(isi sendiri, misalnya membaca dan memahami tiap baris kode, menjalankan tes, mengubah bagian yang perlu, dan menyesuaikan contoh keterbatasan inheritance dengan pemahaman saya)**.
+
 ## Penggunaan AI
 - Alat yang dipakai: claude
 - Bagian yang dibantu AI: laptop.java, AlatLab.java

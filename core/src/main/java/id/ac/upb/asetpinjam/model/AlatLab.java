@@ -31,5 +31,9 @@ public class AlatLab extends Aset {
         return JenisAset.ALAT_LAB;
     }
 
-    // TODO minggu 4: override hitungDenda(int).
+    /** Denda alat lab 4x tarif dasar. Validasi hari negatif dan tarif dasar dihitung di Aset. */
+    @Override
+    public long hitungDenda(int hariTerlambat) {
+        return super.hitungDenda(hariTerlambat) * 4;
+    }
 }

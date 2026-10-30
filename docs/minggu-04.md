@@ -7,7 +7,7 @@ Bobot: Quiz 2%, Praktikum 1%.
 - Memakai overriding dan dynamic binding.
 - Membedakan overloading dan overriding.
 
-## Yang dikerjakan
+## Yang dikerjakan.
 
 - `core/src/main/java/id/ac/upb/asetpinjam/model/Aset.java` dan tiga subclass: override `hitungDenda(int)`.
 - `core/src/main/java/id/ac/upb/asetpinjam/katalog/KatalogAset.java`: dua overload `cari(...)`.
