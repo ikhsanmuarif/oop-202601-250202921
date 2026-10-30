@@ -24,7 +24,6 @@
   - Menjelaskan konsep overriding, overloading, dan dynamic binding dari perintah minggu 4.
   - Menyusun kode dua method `cari(...)` di `KatalogAset` dan override `hitungDenda` di `Laptop` dan `AlatLab`.
 - **promt utama:**bantu saya memahami kode dari perintah minggu 4
-  - Membaca output error Maven dan menunjuk penyebabnya (`Ruang`, `Laptop`, `@Override` di `Aset`)
 - **yang saya ubah atau tolak dari ai:** memperbaiki error di `Ruang`, `Laptop`, dan `Aset`.
 -**yang saya pahami:**
 - **Overriding:** subclass menulis ulang method superclass dengan tanda tangan yang sama. Versi yang dijalankan dipilih saat program berjalan berdasarkan objek aslinya (dynamic binding). Jadi `Aset a = new Laptop(...); a.hitungDenda(3)` memakai versi `Laptop`.
